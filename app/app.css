@@ -98,3 +98,65 @@ input::placeholder {
 .bold {
   font-weight: 700;
 }
+
+.app {
+  text-align: center;
+}
+
+.search {
+  padding: 1rem;
+}
+
+.search input {
+  padding: 0.7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.1);
+  color: #f8f8f8;
+}
+
+.container {
+  max-width: 700px;
+  height: 700px;
+  margin: auto;
+  padding: 0 1rem;
+  position: relative;
+  top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top {
+  width: 100%;
+  margin: 1rem auto;
+}
+
+.location p {
+  font-size: 2rem;
+}
+
+.temp h1 {
+  font-size: 6rem;
+}
+
+.description p {
+  font-size: 2rem;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 12px;
+  background-color: rgba(255,255,255,0.2);
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
