@@ -33,15 +33,9 @@ This app allows users to get real-time weather information for any city in the w
 
 ---
 
-## 📸 Screenshots (Optional)
+## 📸 Screenshot
 
-*Add screenshots of your app here to visually represent the UI.*
-
-Example:
-
-```
-[Weather App Screenshot](/weatherapp-gui.jpg)
-```
+![App Screenshot](/weatherapp-gui.jpg)
 
 ---
 
@@ -51,10 +45,10 @@ Example:
 weather-app/
 │
 ├── app/
-    │
-    ├── index.html       # Main HTML file
-    ├── app.css          # CSS for styling the app
-    |__ app.js           # JavaScript file with app logic
+|   │
+|   ├── index.html       # Main HTML file
+|   ├── app.css          # CSS for styling the app
+|   |__ app.js           # JavaScript file with app logic
 ├── assets/              # GUI picture
 └── README.md            # Project documentation
 ```
