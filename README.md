@@ -1,53 +1,104 @@
-🌤️ Weather Application
-This is a simple and intuitive weather application built using HTML, CSS, and JavaScript. It fetches and displays real-time weather data for any city using the OpenWeatherMap API. The app features a clean, responsive UI with dynamic background visuals and styled elements for an engaging user experience.
+# 🌤️ Weather App
 
-🔍 Features
-City Search: Enter any city to get the current weather details.
-Live Weather Data: Real-time temperature, weather conditions, humidity, and wind speed.
-Responsive Design: Adapts seamlessly across devices of different screen sizes.
-Dynamic Background: A semi-transparent overlay with a background image enhances visual appeal.
-Error Handling: Displays appropriate messages for invalid or not-found cities.
+A simple **Weather Web Application** built using **HTML**, **CSS**, and **JavaScript**.
+This app allows users to get real-time weather information for any city in the world using the **Google API** for location input and weather data fetching.
 
-🛠️ Technologies Used
-HTML for structure
-CSS for layout, responsiveness, and styling
-JavaScript for dynamic behavior and API integration
-OpenWeatherMap API for weather data
+---
 
-🚀 Getting Started
-Follow these steps to run the project locally on your machine:
+## 🚀 Features
 
-1. Clone the repository
-git clone https://github.com/MunazzaIman/weather-app.git
-cd weather-app
+* 🌎 **Search by Location** — Enter any city name to get live weather updates.
+* ☀️ **Real-Time Weather Data** — Displays temperature, humidity, wind speed, and weather conditions.
+* 📍 **Google API Integration** — Fetches location details and corresponding weather information.
+* 💡 **User-Friendly Interface** — Minimal, responsive, and easy-to-use design.
+* 🎨 **Custom Styling** — Built with clean HTML and CSS for a visually appealing layout.
 
-2. Open the project
-You can open the index.html file directly in your browser:
-# In the project directory
-start index.html   # On Windows
-# OR
-open index.html    # On macOS
-# OR just double-click index.html
-💡 This project does not require a build step or server; it runs entirely in the browser.
+---
 
-🌐 API Setup (OpenWeatherMap)
-Go to https://openweathermap.org/api and sign up for a free account.
-Generate your API key from the dashboard.
+## 🛠️ Technologies Used
 
-Open the JavaScript file (e.g., main.js) and replace the placeholder in the fetch URL with your API key:
+* **HTML5** — Structure of the application.
+* **CSS3** — Styling and layout.
+* **JavaScript (ES6)** — Logic for fetching and displaying weather data.
+* **Google API** — Used for location and weather data retrieval.
 
-const apiKey = 'YOUR_API_KEY_HERE'; // Replace this with your API key
+---
 
-📁 Project Structure
+## ⚙️ How It Works
+
+1. The user enters a **city name** in the search box.
+2. The app uses the **Google API** to fetch location coordinates (latitude and longitude).
+3. It then calls the **Google Weather API** (or you can use other integrated API) to get weather data for that location.
+4. The weather information — such as temperature, humidity, feel like, and weather condition — is displayed dynamically on the page.
+
+---
+
+## 📸 Screenshots (Optional)
+
+*Add screenshots of your app here to visually represent the UI.*
+
+Example:
+
+```
+[Weather App Screenshot](/weatherapp-gui.jpg)
+```
+
+---
+
+## 🧩 Project Structure
+
+```
 weather-app/
-├── index.html          # Main HTML file
-├── main.css            # Stylesheet
-├── main.js             # JavaScript logic and API calls
-└── assets/             # Images (optional, for background)
-📸 Screenshot (Optional)
-Add a screenshot of the app UI here if available
+│
+├── app/
+    │
+    ├── index.html       # Main HTML file
+    ├── app.css          # CSS for styling the app
+    |__ app.js           # JavaScript file with app logic
+├── assets/              # GUI picture
+└── README.md            # Project documentation
+```
 
-✅ Future Improvements (Optional)
-Add weather icons based on conditions
-Show forecast for upcoming days
-Add geolocation support for automatic weather detection
+---
+
+## 🔑 Setup & Usage
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Munazza-Iman/WeatherApp.git
+   ```
+
+2. Navigate to the project folder:
+
+   ```bash
+   cd weather-app
+   ```
+
+3. Open the `index.html` file in your browser.
+
+4. Make sure to **add your Google API key** in the JavaScript file:
+
+   ```javascript
+   const apiKey = "YOUR_GOOGLE_API_KEY";
+   ```
+
+5. Type any city name in the search bar and press **Enter** to see real-time weather updates!
+
+---
+
+## 💡 Future Enhancements
+
+* 🌦️ Add 5-day weather forecast.
+* 📱 Improve responsive design for mobile devices.
+* 🕒 Show sunrise and sunset times.
+* 🎨 Include theme options (light/dark mode).
+* 🗺️ Add an interactive map showing searched location.
+
+---
+
+## 👨‍💻 Author
+
+**Munazza Iman**
+
+---
